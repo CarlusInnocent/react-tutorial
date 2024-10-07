@@ -1,0 +1,31 @@
+.posts{
+    max-width: 60%;
+    display:block;
+    display: flex;
+    flex-direction: column;
+}
+
+.postTitle{
+    display: flex;
+    flex-direction: row;
+    margin: 0 0;
+    padding: 5px;
+    max-height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #edf0f1;
+    border-right: 2px solid #edf0f1;
+    position: sticky;
+    top: 62px;
+    max-width: 100%;
+    background-color: #fefeff;
+}
+
+.postsArea{
+    background-color: #24252A;
+    color: azure;
+    border-bottom: 2px solid #edf0f1;
+    border-right: 2px solid #edf0f1;
+    max-width: 100%;
+    top: 100px;
+}

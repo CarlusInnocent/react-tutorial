@@ -15,13 +15,15 @@ PostItem.defaultProps = {
 }
 export function PostItem(props){
     return(
-        <div>
-            <img src={props.image} alt="user-image" width={100} height={125}/>
-            <section className="bio">
-                <p>Name: {props.name}</p>
-                <p>Age: {props.age}</p>
-                <p>Verified: {props.verified ? "Yes" : "No"}</p>
-            </section>
+        <div className="post-item">
+            <span>
+                <img src={props.image} alt="user-image" width={100} height={125}/>
+                <span className="bio">
+                    <p>Name: {props.name}</p>
+                    <p>Age: {props.age}</p>
+                    <p>Verified: {props.verified ? "Yes" : "No"}</p>
+                </span>
+            </span>
             <p>This is my first post in REACT #learningReact</p>
             <p>Last Seen 3 hours ago</p>
             <button>Like</button>

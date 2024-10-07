@@ -1,12 +1,10 @@
-import { Header } from "./components/Header";
-import { Posts } from "./components/Posts";
+import { NavBar } from "./components/NavBar/NavBar";
 
 
 export default function App(){
     return(
         <div>
-            <Header />
-            <Posts />
+            <NavBar />
         </div>
     );
 }
