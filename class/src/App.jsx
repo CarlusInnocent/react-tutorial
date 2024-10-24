@@ -1,10 +1,12 @@
-import { NavBar } from "./components/NavBar/NavBar";
+import NavBar from "./components/NavBar";
+import BestSellers from "./components/BestSellers";
 
+export default function App() {
 
-export default function App(){
-    return(
-        <div>
-            <NavBar />
-        </div>
-    );
+  return (
+    <>
+      <NavBar />
+      <BestSellers />
+    </>
+  );
 }

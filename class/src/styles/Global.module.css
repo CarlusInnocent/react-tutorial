@@ -1,0 +1,20 @@
+*{
+    background-color:rgb(146, 255, 221);
+}
+
+.best-sellers{
+    display: flex;
+    justify-content: space-between;
+}
+
+.seller-card p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.seller-card {
+    background-color: white;
+    border-radius: 20px;
+}
